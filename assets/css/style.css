@@ -1,0 +1,19 @@
+header {
+    background-color: #31343d;
+}
+
+h1 {
+    color: #31343d;
+    background-color: #92ccce;
+    z-index: 
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: #92ccce;
+    text-decoration: none;
+    border-bottom-style: solid;
+}
