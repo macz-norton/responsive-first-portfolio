@@ -19,3 +19,13 @@ nav a {
     text-decoration: none;
     border-bottom-style: solid;
 }
+
+.title {
+    color:  #1c1d21;
+    border-width: 0 0.20em 0 0;
+    border-color: #1c1d21;
+    border-style: solid;
+    width: 25%;
+    text-align: right;
+    padding: 0 1em 0 0;
+}
