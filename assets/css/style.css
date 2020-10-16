@@ -6,15 +6,12 @@ header {
 h1 {
     color: #31343d;
     background-color: #92ccce;
-    justify-content: flex-start;
-}
-
-nav {
-    justify-content: flex-end;
+    padding-left: 3%;
 }
 
 nav li {
     list-style: none;
+    display: inline;
 }
 
 nav a {
