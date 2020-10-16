@@ -43,3 +43,20 @@ p {
     color: #1c1d21;
     vertical-align: top;
 }
+
+.content div {
+    border: 0.20em #92ccce solid;
+    padding: 1em;
+}
+
+.content h3{
+    background-color: #92ccce;
+    margin: 0;
+    padding: 0.25em;
+} 
+
+.content p {
+    background-color: #92ccce;
+    margin: 0;
+    padding: 0.25em;
+}
