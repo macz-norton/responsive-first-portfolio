@@ -77,6 +77,7 @@ p {
     flex: 1;
     border: 0.20em #92ccce solid;
     padding: 1em;
+    /* display: flex; */
 }
 
 @media(min-width:768px){
