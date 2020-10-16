@@ -1,11 +1,16 @@
 header {
     background-color: #31343d;
+    display: flex;
 }
 
 h1 {
     color: #31343d;
     background-color: #92ccce;
-    z-index: 
+    justify-content: flex-start;
+}
+
+nav {
+    justify-content: flex-end;
 }
 
 nav li {
