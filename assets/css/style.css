@@ -20,12 +20,26 @@ nav a {
     border-bottom-style: solid;
 }
 
+.about-section {
+    display: flex;
+}
 .title {
     color:  #1c1d21;
-    border-width: 0 0.20em 0 0;
+    flex-basis: 25%;
+    align-content: flex-end;
+    padding: 0 1em 0 0;
+    vertical-align: top;
+}
+
+.content {
+    border-width: 0 0 0 0.20em;
     border-color: #1c1d21;
     border-style: solid;
-    width: 25%;
-    text-align: right;
-    padding: 0 1em 0 0;
+    padding: 0 0 0 1em;
+}  
+}
+
+p {
+    color: #1c1d21;
+    vertical-align: top;
 }
