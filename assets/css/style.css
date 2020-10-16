@@ -9,7 +9,8 @@ h1 {
     padding-left: 3%;
 }
 
-nav li {
+nav li,
+.contact-section li {
     list-style: none;
     display: inline;
 }
@@ -34,13 +35,13 @@ nav a {
 }
 
 .content {
-    border-width: 0 0 0 0.20em;
+    border-width: 0 0 0 0.15em;
     border-color: #1c1d21;
     border-style: solid;
     flex: 3;
-    padding: 0 0 0 1em;
+    padding: 0 0 0 0.8em;
+    margin: 1em;
 }  
-}
 
 p {
     color: #1c1d21;
@@ -53,9 +54,8 @@ p {
     padding: 0.25em;
 } 
 
-.content p {
+.work-section .content p {
     background-color: #92ccce;
-    margin: 0;
     padding: 0.25em;
 }
 
@@ -68,6 +68,8 @@ p {
 .box-1 {
     border: 0.20em #92ccce solid;
     padding: 1em;
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
 }
 
 .box-2,
@@ -77,9 +79,14 @@ p {
     flex: 1;
     border: 0.20em #92ccce solid;
     padding: 1em;
-    /* display: flex; */
+}
+
+.contact-section a {
+    color: #1c1d21;
+    text-decoration: none;
+    border-bottom-style: solid;
 }
 
 @media(min-width:768px){
 
-}
+} 
