@@ -215,11 +215,11 @@ p {
     margin-right: 1%;
 }
 
-/* Tablets - header changes color */
+/* Tablets */
 @media screen and (max-width: 992px) {
 
 }
-  /* Large smartphones - navbar changes color */
+  /* Large smartphones */
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
@@ -239,9 +239,16 @@ p {
         text-align: center;
         font-size: 1.5em;
     }
-  }
   
-  /* Small smartphones - image placeholders change color */
+    .content {
+        border-width: 0.18em 0 0 0 ;
+        border-color: #31343d;
+        border-style: solid;
+        padding: 0.8em 0 0 0;
+        margin: 0 1em 1em 1em;
+    } 
+
+  /* Small smartphones */
   @media screen and (max-width: 576px) {
     header {
       flex-direction: column;
@@ -261,4 +268,11 @@ p {
         text-align: center;
         font-size: 1.5em;
     }
+    .content {
+        border-width: 0.18em 0 0 0 ;
+        border-color: #31343d;
+        border-style: solid;
+        padding: 0.8em 0 0 0;
+        margin: 0 1em 1em 1em;
+    } 
   }
