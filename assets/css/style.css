@@ -21,7 +21,7 @@ header h1 {
 }
 
 nav {
-    width: 35%;
+    flex: 35%;
 }
 
 ul {
@@ -215,6 +215,50 @@ p {
     margin-right: 1%;
 }
 
-@media screen and (min-width:768px){
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
 
-} 
+}
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+    .about-section,
+    .work-section,
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        color:  #445877;
+        flex: 1;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.5em;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    header {
+      flex-direction: column;
+    }
+    .about-section,
+    .work-section,
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        color:  #445877;
+        flex: 1;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.5em;
+    }
+  }
