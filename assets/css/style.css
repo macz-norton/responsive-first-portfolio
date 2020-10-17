@@ -102,7 +102,9 @@ nav a:hover {
 .about-section img {
     width: auto;
     height: 8em;
+    object-fit: cover;
     margin-left: 1em;
+    flex: 1;
 }
 
 .about-section p {
@@ -110,8 +112,8 @@ nav a:hover {
     vertical-align: top;
     margin-left: 2em;
     font-size: 0.90em;
-    flex: 1;
     line-height: 1em;
+    flex: 1;
 }
 
 .work-section .content p {
@@ -244,6 +246,22 @@ nav a:hover {
         flex-wrap: wrap;
     }
 
+    .about-section .content {
+        flex-direction: column;
+    }
+
+    .about-section img {
+        width: auto;
+        height: 8em;
+        object-fit: scale-down;
+        margin: 0;
+    }
+
+    .about-section p {
+        text-align: center;
+        margin-top: 1em 0 0 0;
+    }
+
     .title {
         color:  #445877;
         flex: 1;
@@ -277,6 +295,22 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .about-section .content {
+        flex-direction: column;
+    }
+
+    .about-section img {
+        width: auto;
+        height: 8em;
+        object-fit: scale-down;
+        margin-bottom: 0;
+    }
+
+    .about-section p {
+        text-align: center;
+        margin: 1em 0 0 0;
     }
 
     .title {
