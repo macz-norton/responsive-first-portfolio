@@ -20,20 +20,26 @@ header h1 {
 }
 
 nav {
-    padding-right: 3%;
+    width: 35%;
+}
+
+ul {
+    padding: 0;
 }
 
 nav li,
 .contact-section li {
     list-style: none;
     display: inline;
-    justify-content: center;
 }
 
 nav a {
     color: #92ccce;
     text-decoration: none;
     border-bottom-style: solid;
+    padding: 0 2% 0 2%;
+    margin-right: 1%;
+    align-self: flex-end;
 }
 
 .hero {
