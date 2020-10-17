@@ -45,15 +45,17 @@ nav a {
 .hero {
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
-    height: 8em;
+    height: 10em;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .hero h3 {
     color: #31343d;
     background-color: #92ccce;
-    justify-content: flex-end;
-    align-items: flex-end;
+    margin-right: 3%;
+    padding: 0.5%;
+    align-self: flex-end;
 }
 
 .about-section,
