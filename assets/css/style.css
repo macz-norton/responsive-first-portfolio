@@ -23,9 +23,6 @@ header h1 {
 nav {
     flex: 40%;
     justify-self: right;
-}
-
-ul {
     padding: 0;
 }
 
