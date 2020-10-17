@@ -92,15 +92,17 @@ p {
     padding: 0.25em;
 } 
 
-.work-section .content p {
-    background-color: #92ccce;
-    padding: 0.25em;
+.work-section {
+    
 }
+
+.work-section .content p {
+    background-color: #92ccce;}
 
 .row-1,
 .row-2,
 .row-3 {
-    display:flex;
+    display: flex;
 }
 
 .box-1 {
@@ -108,6 +110,8 @@ p {
     padding: 1em;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
+    height: 20em;
+    width: 100%;
 }
 
 .box-2 {
