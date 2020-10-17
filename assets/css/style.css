@@ -86,16 +86,6 @@ p {
     vertical-align: top;
 }
 
-.content h3 {
-    background-color: #92ccce;
-    margin: 0;
-    padding: 0.25em;
-} 
-
-.work-section {
-    
-}
-
 .work-section .content p {
     background-color: #92ccce;}
 
@@ -103,11 +93,12 @@ p {
 .row-2,
 .row-3 {
     display: flex;
+    margin: 2%;
 }
 
 .box-1 {
-    border: 0.20em #92ccce solid;
-    padding: 1em;
+    border: 0.25em #92ccce solid;
+    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
     height: 20em;
@@ -115,36 +106,59 @@ p {
 }
 
 .box-2 {
-    flex: 1;
-    border: 0.20em #92ccce solid;
-    padding: 1em;
+    border: 0.25em #92ccce solid;
+    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
+    margin-right: 2%;
+    flex: 1;
+    display: flex;
 }
 
 .box-3 {
-    flex: 1;
-    border: 0.20em #92ccce solid;
-    padding: 1em;
+    border: 0.25em #92ccce solid;
+    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
+    flex: 1;
+    display: flex;
 }
 
 .box-4 {
-    flex: 1;
-    border: 0.20em #92ccce solid;
-    padding: 1em;
+    border: 0.25em #92ccce solid;
+    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
+    margin-right: 2%;
+    flex: 1;
+    display: flex;
 }
 
 .box-5 {
-    /* display: flex; */
-    flex: 1;
     border: 0.20em #92ccce solid;
-    padding: 1em;
+    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
+    flex: 1;
+    display: flex;
+}
+
+.label {
+    background-color: #92ccce;
+    margin: 0;
+    padding: 0.25em;
+    align-self: flex-end;
+    display: inline-block;
+} 
+
+.label h3 {
+    margin: 0;
+    padding: 1%;
+}
+
+.label p {
+    margin: 0;
+    padding: 1%;
 }
 
 .contact-section a {
