@@ -100,7 +100,7 @@ p {
 .box-1 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -110,7 +110,7 @@ p {
 .box-2 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -120,7 +120,7 @@ p {
 .box-3 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
     flex: 1;
     display: flex;
@@ -129,7 +129,7 @@ p {
 .box-4 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -137,7 +137,20 @@ p {
 }
 
 .box-5 {
-    border: 0.20em #92ccce solid;
+    border: 0.25em #92ccce solid;
+    padding: 1em 1em 1em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover,
+.box-5:hover {
+    border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-size: cover;
