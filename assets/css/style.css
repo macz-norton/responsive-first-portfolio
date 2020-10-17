@@ -21,7 +21,8 @@ header h1 {
 }
 
 nav {
-    flex: 35%;
+    flex: 40%;
+    justify-self: right;
 }
 
 ul {
@@ -168,12 +169,7 @@ p {
 .box-3:hover,
 .box-4:hover,
 .box-5:hover {
-    border: 0.25em #92ccce solid;
-    padding: 1em 1em 1em 0;
     background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
-    background-size: cover;
-    flex: 1;
-    display: flex;
 }
 
 .label {
@@ -197,10 +193,6 @@ p {
     display: flex;
 }
 
-.contact-section .content {
-    justify-content: space-around;
-}
-
 .contact-section a {
     color: #1c1d21;
     text-decoration: none;
@@ -217,13 +209,25 @@ p {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-
+    header {
+        flex-direction: column;
+    }
+    ul {
+        padding: 0;
+        flex-wrap: nowrap;   
+    }
 }
   /* Large smartphones */
   @media screen and (max-width: 768px) {
     header {
-      flex-direction: column;
+        flex-direction: column;
     }
+
+    ul {
+        padding: 0;
+        flex-wrap: nowrap;   
+    }
+
     .about-section,
     .work-section,
     .contact-section {
@@ -251,8 +255,14 @@ p {
   /* Small smartphones */
   @media screen and (max-width: 576px) {
     header {
-      flex-direction: column;
+        flex-direction: column;
     }
+
+    ul {
+        padding: 0;
+        flex-wrap: nowrap;   
+    }
+
     .about-section,
     .work-section,
     .contact-section {
