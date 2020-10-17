@@ -69,16 +69,20 @@ nav a {
 }
 
 .title {
-    color:  #1c1d21;
+    color:  #445877;
     flex: 1;
     vertical-align: top;
     text-align: right;
     font-size: 1.5em;
 }
 
+.title h1 {
+    margin: .5em 0 .5em 0;
+}
+
 .content {
-    border-width: 0 0 0 0.15em;
-    border-color: #1c1d21;
+    border-width: 0 0 0 0.18em;
+    border-color: #31343d;
     border-style: solid;
     flex: 3;
     padding: 0 0 0 0.8em;
@@ -88,6 +92,7 @@ nav a {
 p {
     color: #1c1d21;
     vertical-align: top;
+    margin: 0;
 }
 
 .work-section .content p {
