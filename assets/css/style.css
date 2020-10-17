@@ -1,18 +1,33 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #eeeef7;
+    margin: 0;
+}
+
 header {
     background-color: #31343d;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-h1 {
+header h1 {
     color: #31343d;
     background-color: #92ccce;
     padding-left: 3%;
+    padding-right: 1%;
+    margin: 1% 0 1% 0;
+}
+
+nav {
+    padding-right: 3%;
 }
 
 nav li,
 .contact-section li {
     list-style: none;
     display: inline;
+    justify-content: center;
 }
 
 nav a {
@@ -21,11 +36,26 @@ nav a {
     border-bottom-style: solid;
 }
 
+.hero {
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
+    height: 8em;
+    display: flex;
+}
+
+.hero h3 {
+    color: #31343d;
+    background-color: #92ccce;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 .about-section,
 .work-section,
 .contact-section {
     display: flex;
 }
+
 .title {
     color:  #1c1d21;
     flex: 1;
@@ -48,7 +78,7 @@ p {
     vertical-align: top;
 }
 
-.content h3{
+.content h3 {
     background-color: #92ccce;
     margin: 0;
     padding: 0.25em;
@@ -72,13 +102,37 @@ p {
     background-size: cover;
 }
 
-.box-2,
-.box-3,
-.box-4,
-.box-5 {
+.box-2 {
     flex: 1;
     border: 0.20em #92ccce solid;
     padding: 1em;
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
+}
+
+.box-3 {
+    flex: 1;
+    border: 0.20em #92ccce solid;
+    padding: 1em;
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
+}
+
+.box-4 {
+    flex: 1;
+    border: 0.20em #92ccce solid;
+    padding: 1em;
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
+}
+
+.box-5 {
+    /* display: flex; */
+    flex: 1;
+    border: 0.20em #92ccce solid;
+    padding: 1em;
+    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: cover;
 }
 
 .contact-section a {
@@ -87,6 +141,6 @@ p {
     border-bottom-style: solid;
 }
 
-@media(min-width:768px){
+@media screen and (min-width:768px){
 
 } 
