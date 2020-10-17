@@ -17,6 +17,7 @@ header h1 {
     padding-left: 3%;
     padding-right: 1%;
     margin: 1% 0 1% 0;
+    font-size: 2em;
 }
 
 nav {
@@ -56,18 +57,20 @@ nav a {
     margin-right: 3%;
     padding: 0.5%;
     align-self: flex-end;
+    font-size: 1.5em;
 }
 
 .about-section,
 .work-section,
 .contact-section {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .title {
     color:  #1c1d21;
     flex: 1;
-    padding: 0 1em 0 0;
     vertical-align: top;
     text-align: right;
     font-size: 1.5em;
@@ -177,6 +180,10 @@ p {
 
 .contact-section {
     display: flex;
+}
+
+.contact-section .content {
+    justify-content: space-around;
 }
 
 .contact-section a {
