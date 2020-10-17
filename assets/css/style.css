@@ -103,6 +103,7 @@ p {
     background-size: cover;
     height: 20em;
     width: 100%;
+    display: flex;
 }
 
 .box-2 {
@@ -148,7 +149,6 @@ p {
     margin: 0;
     padding: 0.25em;
     align-self: flex-end;
-    display: inline-block;
 } 
 
 .label h3 {
