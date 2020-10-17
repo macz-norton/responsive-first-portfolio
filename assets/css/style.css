@@ -71,7 +71,6 @@ nav a:hover {
 .work-section,
 .contact-section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -96,11 +95,23 @@ nav a:hover {
     margin: 1em;
 }  
 
-p {
+.about-section .content {
+    display: flex;
+}
+
+.about-section img {
+    width: auto;
+    height: 8em;
+    margin-left: 1em;
+}
+
+.about-section p {
     color: #1c1d21;
     vertical-align: top;
-    margin: 0;
-    font-size: 0.70em;
+    margin-left: 2em;
+    font-size: 0.90em;
+    flex: 1;
+    line-height: 1em;
 }
 
 .work-section .content p {
