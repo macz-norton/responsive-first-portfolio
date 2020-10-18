@@ -12,9 +12,9 @@ This project requires no installations.
 
 ## Usage
 
-My deployed responsive portfolio:![https://macz-norton.github.io/responsive-portfolio/](https://macz-norton.github.io/responsive-portfolio/)
+My deployed responsive portfolio: ![https://macz-norton.github.io/responsive-portfolio/](https://macz-norton.github.io/responsive-portfolio/)
 
-![ My respnsive portfolio](#)
+![ My responsive portfolio](#)
 
 ## Tests
 
@@ -43,10 +43,8 @@ For tablet, large phone and small phone sizes:
 
 ## Credits
 
-Guidance on CSS:
-
-Images
-* <span>Photo by <a href="https://unsplash.com/@aridley88?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrew Ridley</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+### Images
+<span>Photo by <a href="https://unsplash.com/@aridley88?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrew Ridley</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 <span>Photo by <a href="https://unsplash.com/@ventanamedia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rob Wilson</a> on <a href="https://unsplash.com/s/photos/running-shoes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
