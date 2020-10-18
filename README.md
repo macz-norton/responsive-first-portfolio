@@ -12,9 +12,9 @@ This project requires no installations.
 
 ## Usage
 
-My deployed responsive portfolio: ![https://macz-norton.github.io/responsive-portfolio/](https://macz-norton.github.io/responsive-portfolio/)
+My deployed responsive portfolio: [https://macz-norton.github.io/responsive-portfolio/](https://macz-norton.github.io/responsive-portfolio/)
 
-![ My responsive portfolio](#)
+[ My responsive portfolio](#)
 
 ## Tests
 

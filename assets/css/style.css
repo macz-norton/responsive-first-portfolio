@@ -7,7 +7,6 @@ body {
 header {
     background-color: #31343d;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -21,9 +20,8 @@ header h1 {
 }
 
 nav {
-    flex: 40%;
-    justify-self: right;
-    padding: 0;
+    flex: 1;
+    justify-items: right;
 }
 
 nav li,
@@ -100,6 +98,7 @@ nav a:hover {
 }
 
 .about-section img {
+    border: 0.25em #92ccce solid;
     width: auto;
     height: 8em;
     object-fit: cover;
@@ -112,7 +111,7 @@ nav a:hover {
     vertical-align: top;
     margin-left: 2em;
     font-size: 0.90em;
-    line-height: 1em;
+    padding-top: 0.5em;
     flex: 1;
 }
 
@@ -221,6 +220,16 @@ nav a:hover {
 
 .contact-section {
     display: flex;
+}
+
+.contact-section footer {
+    display: inline;
+}
+
+.contact-section ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .contact-section a {
