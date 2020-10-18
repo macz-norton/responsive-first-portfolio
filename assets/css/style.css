@@ -1,3 +1,4 @@
+/* Added CSS variable for common color */
 :root {
     --turquoise: #92ccce;
 }
@@ -43,6 +44,7 @@ nav a {
     align-self: flex-end;
 }
 
+/* Added hover effect to nav */
 nav a:hover {
     color: #eeeef7;
     text-decoration: none;
@@ -186,6 +188,7 @@ nav a:hover {
     display: flex;
 }
 
+/* Added hover effects to boxes */
 .box-1:hover{
     background-image: url(../images/digital-marketing-meeting.jpg);
 }
@@ -251,7 +254,7 @@ nav a:hover {
     margin-right: 1%;
 }
 
-/* Tablets */
+/* Responsive to tablets */
 @media screen and (max-width: 992px) {
     header {
         flex-direction: column;
@@ -261,7 +264,7 @@ nav a:hover {
         flex-wrap: nowrap;   
     }
 }
-  /* Large smartphones */
+  /* Responsive to large smartphones */
   @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -312,7 +315,7 @@ nav a:hover {
         margin: 0 1em 1em 1em;
     } 
 
-  /* Small smartphones */
+  /* Responsive to small smartphones */
   @media screen and (max-width: 576px) {
     header {
         flex-direction: column;
