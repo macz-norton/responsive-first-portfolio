@@ -12,6 +12,7 @@ body {
 header {
     background-color: #31343d;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -24,15 +25,11 @@ header h1 {
     font-size: 2em;
 }
 
-nav {
-    flex: 1;
-    justify-items: right;
-}
-
 nav li,
 .contact-section li {
     list-style: none;
     display: inline;
+    margin-left: auto;
 }
 
 nav a {
