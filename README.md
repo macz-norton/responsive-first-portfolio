@@ -48,6 +48,14 @@ Guidance on CSS:
 Images
 * <span>Photo by <a href="https://unsplash.com/@aridley88?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrew Ridley</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
+<span>Photo by <a href="https://unsplash.com/@ventanamedia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rob Wilson</a> on <a href="https://unsplash.com/s/photos/running-shoes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@sloppyperfectionist?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hans-Peter Gauster</a> on <a href="https://unsplash.com/s/photos/puzzles?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@jlane56?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Justin Lane</a> on <a href="https://unsplash.com/s/photos/led?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 ## License
 
 Licensed under the [MIT](LICENSE.txt) license.

@@ -137,7 +137,7 @@ nav a:hover {
 .box-1 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -147,7 +147,7 @@ nav a:hover {
 .box-2 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/justin-lane-lwwM_dotpcs-unsplash.jpg);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -157,7 +157,7 @@ nav a:hover {
 .box-3 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
     background-size: cover;
     flex: 1;
     display: flex;
@@ -166,7 +166,7 @@ nav a:hover {
 .box-4 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -176,18 +176,30 @@ nav a:hover {
 .box-5 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/rob-wilson-1_bK_F0U43o-unsplash.jpg);
     background-size: cover;
     flex: 1;
     display: flex;
 }
 
-.box-1:hover,
-.box-2:hover,
-.box-3:hover,
-.box-4:hover,
+.box-1:hover{
+    background-image: url(../images/digital-marketing-meeting.jpg);
+}
+
+.box-2:hover {
+    background-image: url(../images/justin-lane-lwwM_dotpcs-unsplash.jpg);
+}
+
+.box-3:hover {
+    background-image: url(../images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
+}
+
+.box-4:hover {
+    background-image: url(../images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+}
+
 .box-5:hover {
-    background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: url(../images/rob-wilson-1_bK_F0U43o-unsplash.jpg);
 }
 
 .label {
