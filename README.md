@@ -14,7 +14,7 @@ This project requires no installations.
 
 My deployed responsive portfolio: [https://macz-norton.github.io/responsive-portfolio/](https://macz-norton.github.io/responsive-portfolio/)
 
-![My responsive portfolio](https://user-images.githubusercontent.com/71162422/96356935-0936c080-10aa-11eb-93c5-560637ccaebe.png)
+![My responsive portfolio](https://user-images.githubusercontent.com/71162422/96357470-215e0e00-10b1-11eb-9b6b-2b0cf51c1c1f.png)
 
 ## Tests
 
