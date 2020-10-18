@@ -126,6 +126,14 @@ nav a:hover {
     margin: 2%;
 }
 
+.row-1 a,
+.row-2 a,
+.row-3 a {
+    flex: 1;
+    text-decoration: none;
+    color: #1c1d21;
+}
+
 .box-1 {
     border: 0.25em #92ccce solid;
     padding: 1em 1em 1em 0;
