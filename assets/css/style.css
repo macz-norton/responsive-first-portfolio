@@ -25,6 +25,11 @@ header h1 {
     font-size: 2em;
 }
 
+nav {
+    width: 35%;
+    align-self: center;
+}
+
 nav li,
 .contact-section li {
     list-style: none;
@@ -219,6 +224,7 @@ nav a:hover {
 .label p {
     margin: 0;
     padding: 1%;
+    font-size: 0.5em;
 }
 
 .contact-section {
@@ -231,8 +237,12 @@ nav a:hover {
 
 .contact-section ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+
+.contact-section li {
+    width: 25%;
+    align-self: center;
 }
 
 .contact-section a {
@@ -254,20 +264,19 @@ nav a:hover {
     header {
         flex-direction: column;
     }
-    ul {
-        padding: 0;
-        flex-wrap: nowrap;   
+    nav {
+        width: 100%;
     }
 }
   /* Responsive to large smartphones */
   @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
-    ul {
-        padding: 0;
-        flex-wrap: nowrap;   
+    nav {
+        width: 100%;
     }
 
     .about-section,
@@ -314,11 +323,11 @@ nav a:hover {
   @media screen and (max-width: 576px) {
     header {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
-    ul {
-        padding: 0;
-        flex-wrap: nowrap;   
+    nav {
+        width: 100%;
     }
 
     .about-section,
