@@ -104,7 +104,6 @@ nav a:hover {
 }
 
 .about-section img {
-    border: 0.25em var(--turquoise) solid;
     width: auto;
     height: 8em;
     object-fit: cover;
