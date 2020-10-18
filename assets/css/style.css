@@ -1,3 +1,7 @@
+:root {
+    --turquoise: #92ccce;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     background-color: #eeeef7;
@@ -12,7 +16,7 @@ header {
 
 header h1 {
     color: #31343d;
-    background-color: #92ccce;
+    background-color: var(--turquoise);
     padding-left: 3%;
     padding-right: 1%;
     margin: 1% 0 1% 0;
@@ -31,7 +35,7 @@ nav li,
 }
 
 nav a {
-    color: #92ccce;
+    color: var(--turquoise);
     text-decoration: none;
     border-bottom-style: solid;
     padding: 0 2% 0 2%;
@@ -58,7 +62,7 @@ nav a:hover {
 
 .hero h3 {
     color: #31343d;
-    background-color: #92ccce;
+    background-color: var(--turquoise);
     margin-right: 3%;
     padding: 0.5%;
     align-self: flex-end;
@@ -98,7 +102,7 @@ nav a:hover {
 }
 
 .about-section img {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise) solid;
     width: auto;
     height: 8em;
     object-fit: cover;
@@ -116,7 +120,8 @@ nav a:hover {
 }
 
 .work-section .content p {
-    background-color: #92ccce;}
+    background-color: var(--turquoise);
+}
 
 .row-1,
 .row-2,
@@ -134,7 +139,7 @@ nav a:hover {
 }
 
 .box-1 {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
@@ -144,7 +149,7 @@ nav a:hover {
 }
 
 .box-2 {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise)e solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/justin-lane-lwwM_dotpcs-unsplash.jpg);
     background-size: cover;
@@ -154,7 +159,7 @@ nav a:hover {
 }
 
 .box-3 {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
     background-size: cover;
@@ -163,7 +168,7 @@ nav a:hover {
 }
 
 .box-4 {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
     background-size: cover;
@@ -173,7 +178,7 @@ nav a:hover {
 }
 
 .box-5 {
-    border: 0.25em #92ccce solid;
+    border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/rob-wilson-1_bK_F0U43o-unsplash.jpg);
     background-size: cover;
@@ -202,7 +207,7 @@ nav a:hover {
 }
 
 .label {
-    background-color: #92ccce;
+    background-color: var(--turquoise);
     margin: 0;
     padding: 0.25em;
     align-self: flex-end;
