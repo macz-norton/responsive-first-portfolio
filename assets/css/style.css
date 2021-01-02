@@ -1,6 +1,11 @@
 /* Added CSS variable for common color */
 :root {
-    --turquoise: #92ccce;
+    --turquoise: #015D72;
+    --darkblue: #012D41;
+    --mustard: #FCAF17;
+    --buttercup: #FFCF6F;
+    --salmon: #F57E5E;
+    --white: whitesmoke; 
 }
 
 body {
@@ -10,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #31343d;
+    background-color: var(--white);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,7 +23,8 @@ header {
 
 header h1 {
     color: #31343d;
-    background-color: var(--turquoise);
+    color: var(--turquoise);
+    /* background-color: var(--turquoise); */
     padding-left: 3%;
     padding-right: 1%;
     margin: 1% 0 1% 0;
@@ -39,7 +45,7 @@ nav li,
 nav a {
     color: var(--turquoise);
     text-decoration: none;
-    border-bottom-style: solid;
+    /* border-bottom-style: solid; */
     padding: 0 2% 0 2%;
     margin-right: 1%;
     align-self: flex-end;
@@ -238,6 +244,7 @@ nav a:hover {
 .contact-section ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-section li {
