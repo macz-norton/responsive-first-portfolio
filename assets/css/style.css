@@ -147,7 +147,7 @@ nav a:hover {
     color: var(--white);
 }
 
-.box-1 {
+/* .box-1 {
     border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/103449796-00de3280-4c62-11eb-8b42-0faa7b178b75.png);
@@ -155,12 +155,12 @@ nav a:hover {
     height: 20em;
     width: 100%;
     display: flex;
-}
+} */
 
 .box-2 {
     border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/103449736-5f56e100-4c61-11eb-8050-341f9bf6b2cc.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/111057667-1760f100-843e-11eb-9da7-2ba5fc67abfd.png);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -170,16 +170,16 @@ nav a:hover {
 .box-3 {
     border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/103449782-e441fa80-4c61-11eb-9a31-c7cae97ba69f.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/111057654-03b58a80-843e-11eb-88ca-5ebc2a1fae0a.png);
     background-size: cover;
     flex: 1;
     display: flex;
 }
 
-/* .box-4 {
+.box-4 {
     border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/103449736-5f56e100-4c61-11eb-8050-341f9bf6b2cc.png);
     background-size: cover;
     margin-right: 2%;
     flex: 1;
@@ -189,32 +189,28 @@ nav a:hover {
 .box-5 {
     border: 0.25em var(--turquoise) solid;
     padding: 1em 1em 1em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/rob-wilson-1_bK_F0U43o-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://user-images.githubusercontent.com/71162422/103449782-e441fa80-4c61-11eb-9a31-c7cae97ba69f.png);
     background-size: cover;
     flex: 1;
     display: flex;
-} */
-
-/* Added hover effects to boxes */
-.box-1:hover{
-    background-image: url(https://user-images.githubusercontent.com/71162422/103449796-00de3280-4c62-11eb-8b42-0faa7b178b75.png);
 }
 
-.box-2:hover {
-    background-image: url(https://user-images.githubusercontent.com/71162422/103449736-5f56e100-4c61-11eb-8050-341f9bf6b2cc.png);
+/* Added hover effects to boxes */
+.box-2:hover{
+    background-image: url(https://user-images.githubusercontent.com/71162422/111057667-1760f100-843e-11eb-9da7-2ba5fc67abfd.png);
 }
 
 .box-3:hover {
-    background-image: url(https://user-images.githubusercontent.com/71162422/103449782-e441fa80-4c61-11eb-9a31-c7cae97ba69f.png);
+    background-image: url(https://user-images.githubusercontent.com/71162422/111057654-03b58a80-843e-11eb-88ca-5ebc2a1fae0a.png);
 }
-/* 
+
 .box-4:hover {
-    background-image: url(../images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+    background-image: url(https://user-images.githubusercontent.com/71162422/103449736-5f56e100-4c61-11eb-8050-341f9bf6b2cc.png);
 }
 
 .box-5:hover {
-    background-image: url(../images/rob-wilson-1_bK_F0U43o-unsplash.jpg);
-} */
+    background-image: url(https://user-images.githubusercontent.com/71162422/103449782-e441fa80-4c61-11eb-9a31-c7cae97ba69f.png);
+}
 
 .label {
     background-color: var(--turquoise);
